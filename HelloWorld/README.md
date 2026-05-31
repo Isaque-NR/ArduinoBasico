@@ -24,9 +24,9 @@ Assim como fazemos quando vamos aprender uma nova linguagem, o "Hello World" dos
             <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/Arduino.jpeg" width="100"/></td>
             <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/Protoboard.jpeg" width="100"/></td>
             <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/LEDs.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/Resistores300" width="100"/></td>
+            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/Resistores300.jpeg" width="100"/></td>
             <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/Jumpers.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/CaboUSB" width="100"/></td>
+            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/CaboUSB.jpeg" width="100"/></td>
         </tr>
     </table>
 </p

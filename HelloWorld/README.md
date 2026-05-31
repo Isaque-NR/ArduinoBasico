@@ -21,12 +21,12 @@ Assim como fazemos quando vamos aprender uma nova linguagem, o "Hello World" dos
 <p align="center">
     <table>
         <tr>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/HelloWorld/imagens/Arduino.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/HelloWorld/imagens/Protoboard.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/HelloWorld/imagens/LEDs.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/HelloWorld/imagens/Resistores300" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/HelloWorld/imagens/Jumpers.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/HelloWorld/imagens/CaboUSB" width="100"/></td>
+            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/HelloWorld/imagens/Arduino.jpeg" width="100"/></td>
+            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/HelloWorld/imagens/Protoboard.jpeg" width="100"/></td>
+            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/HelloWorld/imagens/LEDs.jpeg" width="100"/></td>
+            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/HelloWorld/imagens/Resistores300" width="100"/></td>
+            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/HelloWorld/imagens/Jumpers.jpeg" width="100"/></td>
+            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/HelloWorld/imagens/CaboUSB" width="100"/></td>
         </tr>
     </table>
 </p
@@ -48,7 +48,7 @@ Assim como fazemos quando vamos aprender uma nova linguagem, o "Hello World" dos
 
 ## Esquema do Circuito
 
-![Circuito](images/circuito.jpeg)
+![Circuito](imagens/circuito.jpeg)
 
 ---
 
@@ -62,9 +62,7 @@ O Arduino envia um sinal digital de 5V para o pino 2, acendendo o LED Vermelho, 
 
 Veja o funcionamento do circuito na pasta: 
 
-```text
-videos/HelloWorld.mp4
-```
+[HelloWorld.mp4](videos/HelloWorld.mp4)
 
 ---
 
@@ -72,7 +70,4 @@ videos/HelloWorld.mp4
 
 O código utilizado neste circuito está disponível na pasta:
 
-```text
-codigo/codigo.ino
-```
-
+[codigo.ino](codigo/codigo.ino)

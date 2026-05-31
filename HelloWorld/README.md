@@ -28,6 +28,14 @@ Assim como fazemos quando vamos aprender uma nova linguagem, o "Hello World" dos
             <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/Jumpers.jpeg" width="100"/></td>
             <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/CaboUSB.jpeg" width="100"/></td>
         </tr>
+         <tr align="center">
+            <td><b>Arduino Uno</b></td>
+            <td><b>Protoboard</b></td>
+            <td><b>LEDs</b></td>
+            <td><b>Resistores 300Ω</b></td>
+            <td><b>Jumpers</b></td>
+            <td><b>Cabo USB</b></td>
+        </tr>
     </table>
 </p
 

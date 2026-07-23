@@ -85,9 +85,9 @@ O sensor LDR (Light Dependent Resistor) é um sensor cuja resistência elétrica
 
 ## Funcionamento
 
-O Arduino realiza continuamente a leitura do valor analógico fornecido pelo sensor LDR através do pino **D0** (Nesse módulo, esse terminal também pode ser usado para leituras tantos digitais quanto analógicas).
+O Arduino realiza continuamente a leitura do valor digital fornecido pelo sensor LDR através do pino **D0**(Variando entre 0 para luminosidade alta e 1 para baixa luminosidade).
 
-Quando a intensidade luminosa do ambiente fica abaixo do limite definido no código, o LED é acionado, indicando baixa luminosidade. Caso contrário, o LED permanece apagado.
+Quando a intensidade luminosa do ambiente fica baixa com o sensor enviando 1 pro Arduino, ele envia 5v para o LED fazendo com que acenda. Caso contrário, o LED permanece apagado.
 
 ---
 

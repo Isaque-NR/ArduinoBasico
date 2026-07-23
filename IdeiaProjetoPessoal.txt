@@ -1,0 +1,43 @@
+- Fazer um servidor web rodando dentro do esp que vai ter opções de cadastro de pessoa (CRUD) através de uma tag ou cartao usando o módulo RFID. Com o cartão cadastrado quando aproximar de novo mostrar as informações da pessoa.
+EXTRAS: Páginas Diferentes que só podem ser acessadas por uma pessoa especifica (No caso o ID do cartao da pessoa).
+
+
+
+Projeto Simulação Carro Automático com ESP32
+
+- Adaptação do primeiro, ler dados de sensores simulando componentes de um carro com o esp hospedando um servidor web com aparencia de painel automotivo passando os dados lidos dos sensores.
+1 Etapa Montagem dos sensores 
+
+-> Esp32 = receber os dados, processar e vai ter o dashboard nele (web)
+-> botao = ignição ligar motor
+-> slide switch 3 posições = Modo R/N/D (talvez trocar por outro potenciometro)
+-> dht11 -> temperatura motor 
+-> potenciometro = pedal acelerador (tps)
+-> 2 Leds brancos = farol
+-> 2 leds vermelhos = farol de ré
+-> ultrassom + buzzer = Ré
+
+2 Etapa Processamento e Lógica dos dados 
+
+Ex:
+
+int limiteMarcha[] = {20, 40, 60, 80, 100};
+
+velocidade = (tps / 100.0) * limiteMarcha[marcha];
+troca de marcha automatica
+if (tps > 70 && marcha < 5) marcha++;
+if (tps < 30 && marcha > 1) marcha--;
+if (modo == DRIVE) {
+    velocidade = tps;
+}
+if (modo == NEUTRO) {
+    velocidade = 0;
+}
+
+
+3 Etapa Saída dos Dados no DashboardWeb
+
+
+
+- tela em C 
+

@@ -1,56 +1,70 @@
 # Hello World
 
-Assim como fazemos quando vamos aprender uma nova linguagem, o "Hello World" dos microcontroladores é piscar Leds, então vamos fazer isso!
+Assim como fazemos ao aprender uma nova linguagem de programação, o **"Hello World"** da robótica consiste em controlar o acionamento de LEDs. Este projeto apresenta os conceitos básicos de programação embarcada, manipulação de saídas digitais e montagem de circuitos utilizando o Arduino Uno.
+
 ---
 
 ## Componentes Utilizados
 
-| Quantidade | Componente    |
-| ---------- | ------------- |
-| 1          | Arduino Uno   |
-| 2          | LED           |
-| 2          | Resistor 300Ω |
-| 3          | Jumpers       |
-| 1          | Protoboard    |
-| 1          | Cabo Usb A/B  | 
+| Quantidade | Componente       |
+| ---------- | ---------------- |
+| 1          | Arduino Uno      |
+| 2          | LEDs             |
+| 2          | Resistores 300 Ω |
+| 3          | Jumpers          |
+| 1          | Protoboard       |
+| 1          | Cabo USB A/B     |
 
 ---
 
 ## Componentes
 
 <p align="center">
-    <table>
-        <tr>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/Arduino.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/Protoboard.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/LEDs.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/Resistores300.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/Jumpers.jpeg" width="100"/></td>
-            <td><img src="https://github.com/Isaque-NR/ArduinoBasico/blob/main/HelloWorld/imagens/CaboUSB.jpeg" width="100"/></td>
-        </tr>
-         <tr align="center">
-            <td><b>Arduino Uno</b></td>
-            <td><b>Protoboard</b></td>
-            <td><b>LEDs</b></td>
-            <td><b>Resistores 300Ω</b></td>
-            <td><b>Jumpers</b></td>
-            <td><b>Cabo USB</b></td>
-        </tr>
-    </table>
-</p
+<table>
+<tr align="center">
+<td>
+<b>Arduino Uno</b><br>
+<img src="../Imagens/Arduino.jpeg" width="100">
+</td>
+
+<td>
+<b>Protoboard</b><br>
+<img src="../Imagens/Protoboard.jpeg" width="100">
+</td>
+
+<td>
+<b>LEDs</b><br>
+<img src="../Imagens/LEDs.jpeg" width="100">
+</td>
+
+<td>
+<b>Resistores 300 Ω</b><br>
+<img src="../Imagens/Resistores300.jpeg" width="100">
+</td>
+
+<td>
+<b>Jumpers</b><br>
+<img src="../Imagens/Jumpers.jpeg" width="100">
+</td>
+
+<td>
+<b>Cabo USB A/B</b><br>
+<img src="../Imagens/CaboUSB.jpeg" width="100">
+</td>
+</tr>
+</table>
+</p>
 
 ---
 
 ## Ligações
 
-| Componente                 | Arduino         |
-| -------------------------- | --------------- |
-| Ânodo (+) do LED Vermelho  | Pino Digital 2  |
-| Cátodo (-) do LED Vermelho | Resistor 300Ω   |
-| Resistor 300Ω              | GND             |
-| Ânodo (+) do LED Verde     | Pino Digital 3  |
-| Cátodo (-) do LED Verde    | Resistor 300Ω   |
-| Resistor 300Ω              | GND             |
+| Componente                 | Arduino              |
+| -------------------------- | -------------------- |
+| Ânodo (+) do LED vermelho  | Pino Digital 2       |
+| Cátodo (-) do LED vermelho | Resistor 300 Ω → GND |
+| Ânodo (+) do LED verde     | Pino Digital 3       |
+| Cátodo (-) do LED verde    | Resistor 300 Ω → GND |
 
 ---
 
@@ -62,20 +76,21 @@ Assim como fazemos quando vamos aprender uma nova linguagem, o "Hello World" dos
 
 ## Funcionamento
 
-O Arduino envia um sinal digital de 5V para o pino 2, acendendo o LED Vermelho, e 0V para o Led Verde, deixando-o apagado, por um intervalo de tempo de 1 segundo. Em seguida, os sinais são invertidos, consequentemente apagando o LED Vermelho e Ligando o LED Verde.
+O Arduino alterna o estado dos LEDs a cada segundo.
+
+Inicialmente, o LED vermelho é acionado enquanto o LED verde permanece apagado. Após um intervalo de 1 segundo, os estados são invertidos: o LED vermelho é desligado e o LED verde é ligado.
+
+Esse processo é executado continuamente dentro da função `loop()`, demonstrando o controle de saídas digitais do microcontrolador.
 
 ---
 
 ## Demonstração
 
-Veja o funcionamento do circuito na pasta: 
-
-[HelloWorld.mp4](videos/HelloWorld.mp4)
+[Assistir ao vídeo de funcionamento](circuito/HelloWorld.mp4)
 
 ---
 
 ## Código Fonte
 
-O código utilizado neste circuito está disponível na pasta:
+[Abrir código-fonte](codigo/codigo.ino)
 
-[codigo.ino](codigo/codigo.ino)

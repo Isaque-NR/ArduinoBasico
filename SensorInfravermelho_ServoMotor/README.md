@@ -42,12 +42,12 @@ Já o sensor Infravermelho nos retorna direto se tem ou não algum objeto detect
 
 <td>
 <b>Sensor Infravermelho</b><br>
-<img src="../Imagens/IR.jpeg" width="100">
+<img src="../Imagens/sensorInfravermelho.jpeg" width="100">
 </td>
 
 <td>
 <b>Servo Motor</b><br>
-<img src="../Imagens/Servo.jpeg" width="100">
+<img src="../Imagens/servoMotor.jpeg" width="100">
 </td>
 
 <td>

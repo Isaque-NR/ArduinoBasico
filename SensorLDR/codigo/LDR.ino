@@ -1,5 +1,5 @@
-int led = 9; 
-int sensorLDR = A0;
+int led = 3; 
+int sensorLDR = 8;
 
 void setup(){
   pinMode(sensorLDR, INPUT); 
@@ -8,10 +8,10 @@ void setup(){
 }
 
 void loop(){
-  int valorLDR = analogRead(sensorLDR);
+  int valorLDR = digitalRead(sensorLDR);
   Serial.println(valorLDR);
 
-  if (valorLDR > 500){
+  if (valorLDR == HIGH){
     digitalWrite(led, HIGH); 
     Serial.println("Ambiente escuro. Luzes ligadas.");
   }

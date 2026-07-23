@@ -70,7 +70,7 @@ Assim como fazemos ao aprender uma nova linguagem de programação, o **"Hello W
 
 ## Esquema do Circuito
 
-![Circuito](imagens/circuito.jpeg)
+![Circuito](circuito/circuito.png)
 
 ---
 
@@ -86,11 +86,11 @@ Esse processo é executado continuamente dentro da função `loop()`, demonstran
 
 ## Demonstração
 
-[Assistir ao vídeo de funcionamento](circuito/HelloWorld.mp4)
+[Vídeo do funcionamento](circuito/HelloWorld.mp4)
 
 ---
 
 ## Código Fonte
 
-[Abrir código-fonte](codigo/codigo.ino)
+[Código-fonte](codigo/codigo.ino)
 

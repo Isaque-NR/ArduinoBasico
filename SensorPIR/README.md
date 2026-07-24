@@ -1,8 +1,6 @@
 # Sensor PIR
 
-O **sensor PIR (Passive Infrared Sensor)** é um dispositivo capaz de detectar movimento através da variação da radiação infravermelha emitida por corpos quentes, como pessoas e animais. Neste projeto, o Arduino monitora continuamente o sensor PIR e controla dois LEDs para indicar a presença ou ausência de movimento.
-
-Quando um movimento é detectado, o LED verde é aceso e o LED vermelho é apagado. Na ausência de movimento, o LED vermelho permanece aceso enquanto o LED verde permanece apagado.
+O sensor PIR (Passive Infrared Sensor) é um dispositivo capaz de detectar movimento através da variação da radiação infravermelha emitida por corpos quentes. Neste circuito, o Arduino monitora continuamente o sensor PIR e controla dois LEDs para indicar a presença ou ausência de movimento. Quando um movimento é detectado, o LED verde é aceso e o LED vermelho é apagado. Na ausência de movimento, o LED vermelho permanece aceso enquanto o LED verde permanece apagado.
 
 ---
 

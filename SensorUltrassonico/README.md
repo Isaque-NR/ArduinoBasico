@@ -90,9 +90,9 @@ Cada LED representa uma faixa de distância, permitindo uma visualização simpl
 
 | LED      | Arduino         |
 | -------- | --------------- |
-| Verde    | Pino Digital 11 |
-| Branco   | Pino Digital 13 |
-| Laranja  | Pino Digital 12 |
+| Verde    | Pino Digital 13 |
+| Branco   | Pino Digital 12 |
+| Laranja  | Pino Digital 11 |
 | Vermelho | Pino Digital 10 |
 
 ---

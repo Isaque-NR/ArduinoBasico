@@ -1,8 +1,8 @@
 int trig = 7;   
 int echo = 6;  
-int ledBranco = 13;  
-int ledLaranja = 12;  
-int ledVerde = 11;    
+int ledVerde = 13;    
+int ledBranco = 12;  
+int ledLaranja = 11;  
 int ledVermelho = 10;   
 
 void setup() {

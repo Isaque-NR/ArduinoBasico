@@ -129,4 +129,4 @@ A configuração de funcionamento segue:
 
 ## Código Fonte
 
-[Código-fonte](codigo/codigo.ino)
+[Código-fonte](codigo.ino)

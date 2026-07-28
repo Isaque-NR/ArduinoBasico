@@ -115,4 +115,4 @@ Quando o objeto é detectado, o Arduino envia um comando utilizando a biblioteca
 
 ## Código Fonte
 
-[Código-fonte](codigo/codigo.ino)
+[Código-fonte](codigo.ino)

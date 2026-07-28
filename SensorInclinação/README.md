@@ -109,4 +109,4 @@ Ao retornar à posição inicial, o buzzer é desligado automaticamente.
 
 ## Código Fonte
 
-[Código-fonte](codigo/codigo.ino)
+[Código-fonte](codigo.ino)

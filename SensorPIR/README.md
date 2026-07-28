@@ -102,10 +102,10 @@ Ao detectar movimento, o Arduino envia 5v para o LED Verde e apaga o LED vermelh
 
 ## Demonstração
 
-[Vídeo de funcionamento](circuito/SensorPIR.mp4)
+[Vídeo de funcionamento](circuito/sensorPIR.mp4)
 
 ---
 
 ## Código Fonte
 
-[Código-fonte](codigo/codigo.ino)
+[Código-fonte](codigo.ino)

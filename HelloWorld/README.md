@@ -92,5 +92,5 @@ Esse processo é executado continuamente dentro da função `loop()`, demonstran
 
 ## Código Fonte
 
-[Código-fonte](codigo/codigo.ino)
+[Código-fonte](codigo.ino)
 

@@ -8,14 +8,14 @@ void setup(){
 }
 
 void loop(){
-  int valorLDR = digitalRead(sensorLDR);
-  Serial.println(valorLDR);
+  int valorLDR = digitalRead(sensorLDR); // lendo o valor que o sensor nos retorna
+  Serial.println(valorLDR); // printa no monitor serial o valor do sensor
 
-  if (valorLDR == HIGH){
+  if (valorLDR == HIGH){ // se o sensor retornou 1, ou seja, HIGH tem baixa luminosidade entao liga a luz 
     digitalWrite(led, HIGH); 
     Serial.println("Ambiente escuro. Luzes ligadas.");
   }
-  else{
+  else{ // senao o sensor retornou o, ou seja, LOW tem alta luminosidade entao desliga a luz 
     digitalWrite(led, LOW);
     Serial.println("Ambiente claro. Luzes desligadas.");
   }

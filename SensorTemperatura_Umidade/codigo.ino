@@ -74,7 +74,7 @@ void loop()
 
   }
 
-  else                                          // senão
+  else  // senão
 
   {
 
@@ -86,11 +86,11 @@ void loop()
 
   }
 
-  if ( float t = event.temperature >= 30.0){
+  if ( float t = event.temperature >= 30.0){ // se a temperatura for maior ou igual a 30ºC, uma alta temperatura acende o Led Vermelho e apaga o Led Verde
    
    digitalWrite(LedVermelho, HIGH);
    digitalWrite(LedVerde, LOW);
-  }else{
+  }else{ // senao, ou seja, a temperatura for menor que 30ºC, uma temperatura ok acende o Led Verde e apaga o Led Vermelho
    digitalWrite(LedVermelho, LOW);
    digitalWrite(LedVerde, HIGH);
    

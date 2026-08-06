@@ -1,75 +1,29 @@
-int trig = 7;   
-int echo = 6;  
-int ledVerde = 13;    
-int ledBranco = 12;  
-int ledLaranja = 11;  
-int ledVermelho = 10;   
+// Pinos onde os LEDs estão conectados
+const int ledVerde = 3;
+const int ledVermelho = 2;
 
 void setup() {
-  pinMode(trig, OUTPUT );   // TRIGGER envia sinal SAIDA
-  pinMode(echo, INPUT);   // ECHO recebe sinal ENTRADA
-  pinMode(ledVerde, OUTPUT); 
-  pinMode(ledVermelho,OUTPUT ); 
-  pinMode(ledBranco,OUTPUT ); 
-  pinMode(ledLaranja,OUTPUT ); 
-  Serial.begin(9600);      
+
+  // Configura os pinos dos LEDs como saídas digitais
+  pinMode(ledVerde, OUTPUT);
+  pinMode(ledVermelho, OUTPUT);
+
 }
 
 void loop() {
 
-  // Envia um pulso de som pelo sensor
-  digitalWrite(trig, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trig, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trig, LOW);
-
-  // Mede o tempo que o som demorou para ir e voltar
-  long tempo = pulseIn(echo, HIGH); // pulseIn espera o pino sair de LOW para HIGH, temporiza o pino sair de HIGH para LOW e para de temporizar 
-
-  // Transformando o tempo em distância:
-  // O som vai e volta, por isso dividimos
-  // Use o número 58 para converter em centímetros
-  long distancia = tempo / 58;
-
-Serial.println(distancia);   // Mostra a distância no monitor serial
-
-if (distancia < 10) {
-  // Muito perto
-  digitalWrite(ledVermelho, HIGH);
-  digitalWrite(ledBranco, LOW);
-  digitalWrite(ledLaranja, LOW);
-  digitalWrite(ledVerde, LOW);
-
-  Serial.println("Objeto muito perto");
-
-} else if (distancia < 15) {
-  // Perto
-  digitalWrite(ledVermelho, LOW);
-  digitalWrite(ledBranco, LOW);
-  digitalWrite(ledLaranja, HIGH);
-  digitalWrite(ledVerde, LOW);
-
-  Serial.println("Objeto perto");
-
-} else if (distancia < 20) {
-  // Distância média
-  digitalWrite(ledVermelho, LOW);
-  digitalWrite(ledBranco, HIGH);
-  digitalWrite(ledLaranja, LOW);
-  digitalWrite(ledVerde, LOW);
-
-  Serial.println("Objeto a media distancia");
-
-} else {
-  // Longe
-  digitalWrite(ledVermelho, LOW);
-  digitalWrite(ledBranco, LOW);
-  digitalWrite(ledLaranja, LOW);
+  // Acende o LED verde e apaga o vermelho
   digitalWrite(ledVerde, HIGH);
+  digitalWrite(ledVermelho, LOW);
 
-  Serial.println("Objeto distante.");
-}
-  delay(1000); // Pequena pausa para evitar leituras muito rápidas
-}
+  // Aguarda 1 segundo
+  delay(1000);
 
+  // Apaga o LED verde e acende o vermelho
+  digitalWrite(ledVerde, LOW);
+  digitalWrite(ledVermelho, HIGH);
+
+  // Aguarda mais 1 segundo
+  delay(1000);
+
+}

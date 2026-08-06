@@ -1,5 +1,10 @@
 # Arduino Básico
 
+<p align="center">
+  <img src="./Imagens/Arduino.jpeg" width="250">
+</p>
+
+
 Este repositório reúne diversos projetos desenvolvidos com **Arduino Uno** e componentes eletrônicos básicos, tendo como objetivo apresentar o funcionamento individual de cada sensor, módulo e atuador.
 
 Cada projeto contém:

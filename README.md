@@ -47,7 +47,7 @@ ArduinoBasico/
 ├── SensorInfravermelho_ServoMotor/
 ├── LedRGB/
 ├── RFID/
-├── DisplayLCD/
+└── DisplayLCD/
 ```
 
 ---
@@ -67,14 +67,14 @@ ArduinoBasico/
 
 <td align="center">
 <a href="./SensorLDR">
-<img src="./Imagens/LDR.jpeg" width="130"><br>
+<img src="./Imagens/sensorLDR.jpeg" width="130"><br>
 <b>Sensor LDR</b>
 </a>
 </td>
 
 <td align="center">
 <a href="./SensorPIR">
-<img src="./Imagens/SensorPIR.jpeg" width="130"><br>
+<img src="./Imagens/sensorPIR.jpeg" width="130"><br>
 <b>Sensor PIR</b>
 </a>
 </td>
@@ -92,14 +92,14 @@ ArduinoBasico/
 
 <td align="center">
 <a href="./SensorTemperatura_Umidade">
-<img src="./Imagens/DHT11.jpeg" width="130"><br>
+<img src="./Imagens/sensorDHT11.jpeg" width="130"><br>
 <b>DHT11</b>
 </a>
 </td>
 
 <td align="center">
 <a href="./SensorSolo">
-<img src="./Imagens/SensorSolo.jpeg" width="130"><br>
+<img src="./Imagens/sensorSolo.jpeg" width="130"><br>
 <b>Sensor de Umidade do Solo</b>
 </a>
 </td>
@@ -113,7 +113,7 @@ ArduinoBasico/
 
 <td align="center">
 <a href="./SensorInclinacao">
-<img src="./Imagens/SensorInclinacao.jpeg" width="130"><br>
+<img src="./Imagens/sensorInclinacao.jpeg" width="130"><br>
 <b>Sensor de Inclinação</b>
 </a>
 </td>
@@ -124,7 +124,7 @@ ArduinoBasico/
 
 <td align="center">
 <a href="./SensorInfravermelho_ServoMotor">
-<img src="./Imagens/SensorIR.jpeg" width="130"><br>
+<img src="./Imagens/sensorInfravermelho.jpeg" width="130"><br>
 <b>Sensor Infravermelho + Servo</b>
 </a>
 </td>
@@ -145,7 +145,7 @@ ArduinoBasico/
 
 <td align="center">
 <a href="./DisplayLCD">
-<img src="./Imagens/DisplayLCD.jpeg" width="130"><br>
+<img src="./Imagens/LCD.jpeg" width="130"><br>
 <b>Display LCD</b>
 </a>
 </td>
@@ -160,7 +160,7 @@ ArduinoBasico/
 
 # Aprenda Arduino e Robótica
 
-A robótica está presente em diversas áreas do nosso cotidiano, desde sistemas de automação residencial até aplicações industriais, agrícolas, médicas e educacionais. O Arduino é uma das plataformas mais utilizadas para dar os primeiros passos nesse universo, pois permite aprender eletrônica e programação de forma prática e acessível. Agradeço ao programa Seguir Transformando Através da Robótica e outras Tecnologias (START) <a href="https://numbers.ifg.edu.br/start"> por ter me dado a oportunidade de aprofundar nesse mundo como monitor.
+A robótica está presente em diversas áreas do nosso cotidiano, desde sistemas de automação residencial até aplicações industriais, agrícolas, médicas e educacionais. O Arduino é uma das plataformas mais utilizadas para dar os primeiros passos nesse universo, pois permite aprender eletrônica e programação de forma prática e acessível. Agradeço ao programa <a href="https://numbers.ifg.edu.br/start"> Seguir Transformando Através da Robótica e outras Tecnologias (START) por ter me dado a oportunidade de aprofundar nesse mundo como monitor.
 
 Este repositório foi desenvolvido com o objetivo de servir como uma coleção de exemplos básicos utilizando sensores, módulos e atuadores amplamente empregados em projetos de robótica e sistemas embarcados. Cada projeto aborda um componente de forma individual, permitindo compreender seu funcionamento antes de integrá-lo a aplicações mais complexas.
 

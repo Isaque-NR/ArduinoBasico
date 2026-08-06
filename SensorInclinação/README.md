@@ -37,7 +37,7 @@ Ela fecha o circuito elétrico. Neste circuito, o Arduino monitora continuamente
 
 <td>
 <b>Sensor de Inclinação</b><br>
-<img src="../Imagens/SensorInclinacao.jpeg" width="100">
+<img src="../Imagens/sensorInclinacao.jpeg" width="100">
 </td>
 
 <td>

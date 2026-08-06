@@ -160,7 +160,7 @@ ArduinoBasico/
 
 # Aprenda Arduino e Robótica
 
-A robótica está presente em diversas áreas do nosso cotidiano, desde sistemas de automação residencial até aplicações industriais, agrícolas, médicas e educacionais. O Arduino é uma das plataformas mais utilizadas para dar os primeiros passos nesse universo, pois permite aprender eletrônica e programação de forma prática e acessível. Agradeço ao programa <a href="https://numbers.ifg.edu.br/start"> Seguir Transformando Através da Robótica e outras Tecnologias (START) por ter me dado a oportunidade de aprofundar nesse mundo como monitor.
+A robótica está presente em diversas áreas do nosso cotidiano, desde sistemas de automação residencial até aplicações industriais, agrícolas, médicas e educacionais. O Arduino é uma das plataformas mais utilizadas para dar os primeiros passos nesse universo, pois permite aprender eletrônica e programação de forma prática e acessível. Agradeço ao programa <a href="https://numbers.ifg.edu.br/start"> Seguir Transformando Através da Robótica e outras Tecnologias (START)</a> por ter me dado a oportunidade de aprofundar nesse mundo como monitor.
 
 Este repositório foi desenvolvido com o objetivo de servir como uma coleção de exemplos básicos utilizando sensores, módulos e atuadores amplamente empregados em projetos de robótica e sistemas embarcados. Cada projeto aborda um componente de forma individual, permitindo compreender seu funcionamento antes de integrá-lo a aplicações mais complexas.
 

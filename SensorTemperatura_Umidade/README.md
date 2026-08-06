@@ -67,7 +67,7 @@ Essas bibliotecas implementam toda a comunicação com o DHT11, permitindo que o
 
 <td>
 <b>Sensor DHT11</b><br>
-<img src="../Imagens/DHT11.jpeg" width="100">
+<img src="../Imagens/sensorDHT11.jpeg" width="100">
 </td>
 
 <td>
